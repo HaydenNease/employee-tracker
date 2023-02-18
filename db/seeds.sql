@@ -4,28 +4,28 @@ VALUES
 ('Sales'), -- 1
 ('Accounting'), -- 2
 ('Human Resources'), -- 3
-('Warehouse') --4
-('Quality Assurance') --5
-('Reception') --6 
-('Temp') --7
+('Warehouse'), -- 4
+('Quality Assurance'), -- 5
+('Reception'), -- 6 
+('Temp'); -- 7
 
 
 INSERT INTO role (title, salary, department_id)
 VALUES
-('Branch Manager', 1000000, 1), --1 
-('CFO', 215000, 1), --2
-('Vice President', 180000, 1), --3 
-('Sales Manager', 130000, 1), --4 
-('Salesperson', 120000, 1), --5 
-('Head Accountant', 100000, 2) --6 
-('Accountant', 800000, 2) --7
-('Assistant to the Branch Manager', 12000, 1), --8
-('Foreman', 70000, 4), --9
-('H.R. Director', 150000, 4), --10
-('Customer Relations', 90000, 5), --11 
-('Quality Assurance', 65000, 5) --12
-('Receptionist', 40000, 6), --13
-('Temp', 35000, 7); --14
+('Branch Manager', 100000, 1), -- 1 --
+('CFO', 215000, 1), -- 2 --
+('Vice President', 180000, 1), -- 3 -- 
+('Sales Manager', 130000, 1), -- 4 --
+('Salesperson', 120000, 1), -- 5 -- 
+('Head Accountant', 100000, 2), -- 6 -- 
+('Accountant', 800000, 2), -- 7 --
+('A to the BM', 12000, 1), -- 8 --
+('Foreman', 70000, 4), -- 9 --
+('H.R. Director', 150000, 3), -- 10 --
+('Customer Relations', 90000, 5), -- 11 -- 
+('Quality Assurance', 65000, 5), -- 12 --
+('Receptionist', 40000, 6), -- 13 --
+('Temp', 35000, 7); -- 14 --
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES

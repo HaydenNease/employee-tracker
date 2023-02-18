@@ -142,9 +142,9 @@ const init = async () => {
             'View All Employees',
             'View All Roles',
             'View All Departments',
-            'Add Employee',
-            'Add Role',
-            'Add Department',
+            'Create Employee',
+            'Create Role',
+            'Create Department',
         ],
         name: 'type',
     })
